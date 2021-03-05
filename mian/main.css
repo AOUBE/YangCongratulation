@@ -1,11 +1,40 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
   height: 100%;
 }
-body{
+
+body {
   height: 100%;
   margin: 0px;
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+}
+/* 这是header里的标题部分 */
+#top-title {
+  text-align: center;
+  height: 80%;
+}
+
+/* 这是header里的导航部分 */
+#top-nav {
+  height: 20%;
+  border-top: solid;
+}
+
+#top-nav>div{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+#top-nav>div>ul {
+  list-style: none;
+  margin: 0;
+}
+
+#top-nav>div>ul>li {
+  float: left;
 }
