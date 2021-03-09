@@ -1,0 +1,18 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+nav {
+  border-bottom:1px blue solid;
+}
+
+.top>.container>a {
+  text-decoration: none;
+  color: black;
+}
+
+.top>.container>a>h1 {
+  margin-left: 0.83em;
+}
