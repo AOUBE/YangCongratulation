@@ -1,18 +1,67 @@
 body,
 html {
   margin: 0;
-  height: 100%;
 }
 
-nav {
-  border-bottom:1px blue solid;
-}
-
-.top>.container>a {
+a {
   text-decoration: none;
   color: black;
 }
 
-.top>.container>a>h1 {
-  margin-left: 0.83em;
+
+header>nav {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+header>nav>span {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+#menus {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.5;
+  justify-content: space-around;
+  font-size: 0.7em;
+}
+
+main {
+  background-color: coral;
+  margin: 2rem 16rem 2rem 16rem;
+}
+
+.content {
+  display: flex;
+}
+
+.content-left {
+  background-color: cyan;
+  margin: 2rem 25rem 2rem 2rem;
+}
+
+.content-right {
+  background-color: darkorange;
+  margin: 2rem 2rem 2rem 0rem;
+}
+
+.content-left>div {
+  border: solid;
+  display: flex;
+  align-items: center;
+}
+
+.content-left>div>a>img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.content-left>div>div {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
