@@ -9,6 +9,7 @@ a {
   color: black
 }
 
+/* 下面开始是header部分的布局 */
 header {
   background-color: blanchedalmond;
   display: flex;
@@ -20,12 +21,17 @@ header>hgroup {
   text-align: center;
 }
 
-header>nav{
+header>nav {
   width: 80%;
+  margin-top: 2rem;
 }
+
 #menus {
   display: flex;
   font-size: 1.2rem;
   justify-content: space-around;
 }
 
+#menus>div{
+  margin: 0.5rem;
+}
