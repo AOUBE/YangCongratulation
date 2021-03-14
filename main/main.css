@@ -19,11 +19,11 @@ header {
 
 header>hgroup {
   text-align: center;
+  margin-top: 1rem;
 }
 
 header>nav {
-  width: 80%;
-  margin-top: 2rem;
+  margin-top: 2rem 0 0 0;
 }
 
 #menus {
@@ -32,6 +32,26 @@ header>nav {
   justify-content: space-around;
 }
 
-#menus>div{
+#menus>div {
   margin: 0.5rem;
+}
+
+/* 下面是博客的内容部分 */
+main {
+  background-color: darkgreen;
+  margin: 2rem 8rem 2rem 8rem;
+  display: flex;
+
+}
+
+.main-left {
+  margin: 1rem;
+  border: solid;
+  background-color: aqua;
+}
+
+.main-right {
+  margin: 1rem;
+  border: solid;
+  background-color: aqua;
 }
