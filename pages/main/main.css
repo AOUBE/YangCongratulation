@@ -1,0 +1,81 @@
+
+@import url(..//css/index.css);
+
+/* 下面开始是header部分的布局 */
+.top {
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header>hgroup {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+header>nav {
+  margin-top: 2rem 0 0 0;
+}
+
+#menus {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-around;
+}
+
+#menus>div {
+  margin: 0.5rem;
+}
+
+/* 下面是博客的内容部分 */
+main {
+
+  margin: 2rem 16rem 2rem 16rem;
+  display: flex;
+}
+
+/* 这是博客内容的左边部分，关于文章 */
+.main-left {
+  width: 70%;
+  background-color: aqua;
+  padding: 4rem;
+}
+
+.main-left article {
+  border: solid;
+}
+
+.left-all {
+  border: solid;
+  margin: 0.5rem 0.3rem 0.5rem 0.3rem;
+}
+
+.left-all h2 {
+  margin: 0.5rem 0rem 0.5rem 0.3rem;
+}
+
+.left-all>header>div {
+  margin: 0.1rem 0rem 0.5rem
+}
+
+/* 这是博客内容的右边部分，关于标签 */
+.main-right {
+  padding: 4rem;
+  width: 30%;
+  background-color: aqua;
+  border: solid;
+}
+
+aside {
+  border: solid;
+  margin-bottom: 3rem;
+}
+
+#tag div {
+  margin: 0.5rem;
+}
+
+#tag div a {
+  border: 0.1rem solid;
+}

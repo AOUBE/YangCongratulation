@@ -1,0 +1,51 @@
+@import url(../../css/index.css);
+header>nav {
+  /* width: 100%; */
+  margin-top: 2rem 0 0 0;
+}
+
+
+/* 下面是博客的内容部分 */
+main {
+  background-color: darkgreen;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* 这是博客内容的左边部分，关于文章 */
+.main-left {
+  width: auto;
+  background-color: aqua;
+  padding: 0.3rem;
+  border: solid;
+  margin-bottom: 2rem;
+}
+
+.main-left article {
+  background-color: forestgreen;
+  border: solid;
+}
+
+/* 这是博客内容的右边部分，关于标签 */
+.main-right {
+  padding: 0.3rem;
+  width: auto;
+  background-color: aqua;
+  border: solid;
+}
+
+aside {
+  border: solid;
+  margin-bottom: 1rem;
+  ;
+}
+
+#tag div {
+  margin: 0.5rem;
+}
+
+#tag div a {
+  border: 0.1rem solid;
+}

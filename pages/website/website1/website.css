@@ -1,18 +1,4 @@
-html,
-body {
-  margin: 0;
-  background-color: darkred;
-}
-
-a {
-  text-decoration: none;
-  color: black
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
+@import url(../../css/index.css);
 
 /* 下面开始是header部分的布局 */
 .top {
@@ -43,7 +29,6 @@ header>nav {
 
 /* 下面是博客的内容部分 */
 main {
-
   margin: 2rem 16rem 2rem 16rem;
   display: flex;
 }
@@ -55,21 +40,6 @@ main {
   padding: 4rem;
 }
 
-.main-left article {
-  border: solid;
-}
-
-.left-all {
-  border: solid;
-  margin: 0.5rem 0.3rem 0.5rem 0.3rem;
-}
-
-.left-all h2 {
-  margin: 0.5rem 0rem 0.5rem 0.3rem;
-}
-.left-all>header>div{
-  margin:0.1rem 0rem 0.5rem
-}
 
 /* 这是博客内容的右边部分，关于标签 */
 .main-right {
@@ -82,7 +52,6 @@ main {
 aside {
   border: solid;
   margin-bottom: 3rem;
-  ;
 }
 
 #tag div {
