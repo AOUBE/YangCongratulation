@@ -43,7 +43,7 @@ header>nav {
 
 /* 下面是博客的内容部分 */
 main {
-  background-color: darkgreen;
+
   margin: 2rem 16rem 2rem 16rem;
   display: flex;
 }
@@ -53,12 +53,22 @@ main {
   width: 70%;
   background-color: aqua;
   padding: 4rem;
-  border: solid; 
 }
 
-.main-left article{
-  background-color: forestgreen;
+.main-left article {
   border: solid;
+}
+
+.left-all {
+  border: solid;
+  margin: 0.5rem 0.3rem 0.5rem 0.3rem;
+}
+
+.left-all h2 {
+  margin: 0.5rem 0rem 0.5rem 0.3rem;
+}
+.left-all>header>div{
+  margin:0.1rem 0rem 0.5rem
 }
 
 /* 这是博客内容的右边部分，关于标签 */
@@ -69,15 +79,16 @@ main {
   border: solid;
 }
 
-aside{
+aside {
   border: solid;
-  margin-bottom:3rem;;
+  margin-bottom: 3rem;
+  ;
 }
 
-#tag div{
+#tag div {
   margin: 0.5rem;
 }
 
-#tag div a{
+#tag div a {
   border: 0.1rem solid;
 }
